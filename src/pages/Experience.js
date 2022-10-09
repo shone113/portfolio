@@ -23,7 +23,7 @@ function Experience() {
 
        <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
-          date='2017'
+          date='2021'
           iconStyle={{background: "#e9d35b", color: "#fff"}}
           icon={<WorkIcon />} 
         >
