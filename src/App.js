@@ -18,6 +18,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
+          {/* ADDED BECAUSE OF GITHUB PAGES ROUTES */}
+          <Route path="/portfolio" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>
