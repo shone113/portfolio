@@ -15,11 +15,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}/>
+          {/* ADDED BECAUSE OF GITHUB PAGES ROUTES */}
+          <Route path="/portfolio" element={<Home />} />
+          
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
-          {/* ADDED BECAUSE OF GITHUB PAGES ROUTES */}
-          <Route path="/portfolio" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>
